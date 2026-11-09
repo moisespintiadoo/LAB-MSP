@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "cert": "10.10.10.10",
+    "_comment": "Fragmento de referencia: solo los ajustes que se cambian sobre el data/config.json generado"
+  },
+  "domains": {
+    "": {
+      "allowedOrigin": true,
+      "newAccounts": false
+    }
+  }
+}

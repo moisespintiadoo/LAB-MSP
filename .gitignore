@@ -1,0 +1,13 @@
+# Datos generados por los servicios: NUNCA al repositorio
+servicios/*/data/
+servicios/*/database/
+servicios/*/backups/
+servicios/*/files/
+servicios/*/vw-data/
+servicios/*/caddy-data/
+
+# Secretos
+.env
+*.pem
+*.key
+*.crt

@@ -1,0 +1,9 @@
+{
+  auto_https disable_redirects
+  default_sni 10.10.10.10
+}
+
+https://10.10.10.10:8443 {
+  tls internal
+  reverse_proxy 127.0.0.1:8080
+}
